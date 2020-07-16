@@ -1,3 +1,4 @@
+
 //cat image API
 
 const catImage = () => {
@@ -18,5 +19,10 @@ const catImage = () => {
 
 catImage();
 
-//Buttons to refresh cat image
+// refresh button 
+
+const refresh = document.getElementsByClassName('vote');
+
+refresh[0].addEventListener('click', catImage);
+refresh[1].addEventListener('click', catImage);
 

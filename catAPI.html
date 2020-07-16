@@ -7,7 +7,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="catAPI.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-    <script src="catAPI.js"></script>
 </head>
 <body>
 <!-- Top Navigation Content-->
@@ -32,10 +31,10 @@
 <!-- Center Voting Content -->
         <div class="center-content">
             <div class="vote-btns">
-                <button id="love-btn">
+                <button id="love-btn" class="vote">
                     <a href="#"><i id="thumbs-up" class="fas fa-thumbs-up"></i>LOVE IT</a>
                 </button>
-                <button id="nope-btn">
+                <button id="nope-btn" class="vote">
                     <a href="#"><i id="thumbs-down" class="fas fa-thumbs-down"></i>NOPE IT</a>
                 </button>
             </div>
@@ -44,5 +43,6 @@
             </div>
         </div>
     </div>
+    <script src="catAPI.js"></script>
 </body>
 </html>
