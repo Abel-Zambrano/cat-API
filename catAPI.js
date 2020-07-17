@@ -23,6 +23,10 @@ catImage();
 
 const refresh = document.getElementsByClassName('vote');
 
-refresh[0].addEventListener('click', catImage);
-refresh[1].addEventListener('click', catImage);
+for(var i = 0; i < refresh.length; i++) {
+    addEventListener('click', catImage);
+}
+
+// refresh[0].addEventListener('click', catImage);
+// refresh[1].addEventListener('click', catImage);
 
